@@ -1,0 +1,14 @@
+PODS:
+  - Yatima-iOS-SDK (0.1.1)
+
+DEPENDENCIES:
+  - Yatima-iOS-SDK (from `../`)
+
+EXTERNAL SOURCES:
+  Yatima-iOS-SDK:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Yatima-iOS-SDK: 6fa634a5b1268043a02531f4b976a466bedc2d39
+
+COCOAPODS: 0.33.1

@@ -34,6 +34,6 @@ Pod::Spec.new do |s|
   s.osx.exclude_files = 'Classes/ios'
 
   s.public_header_files = 'Classes/ios/ios/*.h'
-  s.frameworks = 'CoreBluetooth', 'CoreLocation'
+  # s.frameworks = 'SomeFramework', 'AnotherFramework'
   # s.dependency 'JSONKit', '~> 1.4'
 end

@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB711575AF064417B9501843 /* libPods-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF608C46311C478CBC3C46FE /* libPods-Demo.a */; };
+		CAEF20E1192EEE0B00171E74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEF20E0192EEE0B00171E74 /* Foundation.framework */; };
+		CAEF20E3192EEE0B00171E74 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEF20E2192EEE0B00171E74 /* CoreGraphics.framework */; };
+		CAEF20E5192EEE0B00171E74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEF20E4192EEE0B00171E74 /* UIKit.framework */; };
+		CAEF20EB192EEE0B00171E74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAEF20E9192EEE0B00171E74 /* InfoPlist.strings */; };
+		CAEF20ED192EEE0B00171E74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEF20EC192EEE0B00171E74 /* main.m */; };
+		CAEF20F1192EEE0B00171E74 /* KNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEF20F0192EEE0B00171E74 /* KNAppDelegate.m */; };
+		CAEF20F4192EEE0B00171E74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAEF20F2192EEE0B00171E74 /* Main.storyboard */; };
+		CAEF20F7192EEE0B00171E74 /* KNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEF20F6192EEE0B00171E74 /* KNViewController.m */; };
+		CAEF20F9192EEE0B00171E74 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAEF20F8192EEE0B00171E74 /* Images.xcassets */; };
+		CAEF2100192EEE0C00171E74 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEF20FF192EEE0C00171E74 /* XCTest.framework */; };
+		CAEF2101192EEE0C00171E74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEF20E0192EEE0B00171E74 /* Foundation.framework */; };
+		CAEF2102192EEE0C00171E74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEF20E4192EEE0B00171E74 /* UIKit.framework */; };
+		CAEF210A192EEE0C00171E74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAEF2108192EEE0C00171E74 /* InfoPlist.strings */; };
+		CAEF210C192EEE0C00171E74 /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEF210B192EEE0C00171E74 /* DemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAEF2103192EEE0C00171E74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAEF20D5192EEE0B00171E74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAEF20DC192EEE0B00171E74;
+			remoteInfo = Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF608C46311C478CBC3C46FE /* libPods-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEF20DD192EEE0B00171E74 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEF20E0192EEE0B00171E74 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CAEF20E2192EEE0B00171E74 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CAEF20E4192EEE0B00171E74 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CAEF20E8192EEE0B00171E74 /* Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demo-Info.plist"; sourceTree = "<group>"; };
+		CAEF20EA192EEE0B00171E74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CAEF20EC192EEE0B00171E74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAEF20EE192EEE0B00171E74 /* Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo-Prefix.pch"; sourceTree = "<group>"; };
+		CAEF20EF192EEE0B00171E74 /* KNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNAppDelegate.h; sourceTree = "<group>"; };
+		CAEF20F0192EEE0B00171E74 /* KNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNAppDelegate.m; sourceTree = "<group>"; };
+		CAEF20F3192EEE0B00171E74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAEF20F5192EEE0B00171E74 /* KNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNViewController.h; sourceTree = "<group>"; };
+		CAEF20F6192EEE0B00171E74 /* KNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNViewController.m; sourceTree = "<group>"; };
+		CAEF20F8192EEE0B00171E74 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CAEF20FE192EEE0C00171E74 /* DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEF20FF192EEE0C00171E74 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CAEF2107192EEE0C00171E74 /* DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoTests-Info.plist"; sourceTree = "<group>"; };
+		CAEF2109192EEE0C00171E74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CAEF210B192EEE0C00171E74 /* DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTests.m; sourceTree = "<group>"; };
+		D2B5707882FE49F6A2BB51F1 /* Pods-Demo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.xcconfig"; path = "Pods/Pods-Demo.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAEF20DA192EEE0B00171E74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEF20E3192EEE0B00171E74 /* CoreGraphics.framework in Frameworks */,
+				CAEF20E5192EEE0B00171E74 /* UIKit.framework in Frameworks */,
+				CAEF20E1192EEE0B00171E74 /* Foundation.framework in Frameworks */,
+				AB711575AF064417B9501843 /* libPods-Demo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEF20FB192EEE0C00171E74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEF2100192EEE0C00171E74 /* XCTest.framework in Frameworks */,
+				CAEF2102192EEE0C00171E74 /* UIKit.framework in Frameworks */,
+				CAEF2101192EEE0C00171E74 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAEF20D4192EEE0B00171E74 = {
+			isa = PBXGroup;
+			children = (
+				CAEF20E6192EEE0B00171E74 /* Demo */,
+				CAEF2105192EEE0C00171E74 /* DemoTests */,
+				CAEF20DF192EEE0B00171E74 /* Frameworks */,
+				CAEF20DE192EEE0B00171E74 /* Products */,
+				D2B5707882FE49F6A2BB51F1 /* Pods-Demo.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		CAEF20DE192EEE0B00171E74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAEF20DD192EEE0B00171E74 /* Demo.app */,
+				CAEF20FE192EEE0C00171E74 /* DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAEF20DF192EEE0B00171E74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAEF20E0192EEE0B00171E74 /* Foundation.framework */,
+				CAEF20E2192EEE0B00171E74 /* CoreGraphics.framework */,
+				CAEF20E4192EEE0B00171E74 /* UIKit.framework */,
+				CAEF20FF192EEE0C00171E74 /* XCTest.framework */,
+				BF608C46311C478CBC3C46FE /* libPods-Demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAEF20E6192EEE0B00171E74 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				CAEF20EF192EEE0B00171E74 /* KNAppDelegate.h */,
+				CAEF20F0192EEE0B00171E74 /* KNAppDelegate.m */,
+				CAEF20F2192EEE0B00171E74 /* Main.storyboard */,
+				CAEF20F5192EEE0B00171E74 /* KNViewController.h */,
+				CAEF20F6192EEE0B00171E74 /* KNViewController.m */,
+				CAEF20F8192EEE0B00171E74 /* Images.xcassets */,
+				CAEF20E7192EEE0B00171E74 /* Supporting Files */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		CAEF20E7192EEE0B00171E74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAEF20E8192EEE0B00171E74 /* Demo-Info.plist */,
+				CAEF20E9192EEE0B00171E74 /* InfoPlist.strings */,
+				CAEF20EC192EEE0B00171E74 /* main.m */,
+				CAEF20EE192EEE0B00171E74 /* Demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAEF2105192EEE0C00171E74 /* DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAEF210B192EEE0C00171E74 /* DemoTests.m */,
+				CAEF2106192EEE0C00171E74 /* Supporting Files */,
+			);
+			path = DemoTests;
+			sourceTree = "<group>";
+		};
+		CAEF2106192EEE0C00171E74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAEF2107192EEE0C00171E74 /* DemoTests-Info.plist */,
+				CAEF2108192EEE0C00171E74 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAEF20DC192EEE0B00171E74 /* Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAEF210F192EEE0C00171E74 /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildPhases = (
+				2D33908BB35C4A0599762C4C /* Check Pods Manifest.lock */,
+				CAEF20D9192EEE0B00171E74 /* Sources */,
+				CAEF20DA192EEE0B00171E74 /* Frameworks */,
+				CAEF20DB192EEE0B00171E74 /* Resources */,
+				2D31ACCBAEE94063BFE1BD75 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo;
+			productName = Demo;
+			productReference = CAEF20DD192EEE0B00171E74 /* Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAEF20FD192EEE0C00171E74 /* DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAEF2112192EEE0C00171E74 /* Build configuration list for PBXNativeTarget "DemoTests" */;
+			buildPhases = (
+				CAEF20FA192EEE0C00171E74 /* Sources */,
+				CAEF20FB192EEE0C00171E74 /* Frameworks */,
+				CAEF20FC192EEE0C00171E74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAEF2104192EEE0C00171E74 /* PBXTargetDependency */,
+			);
+			name = DemoTests;
+			productName = DemoTests;
+			productReference = CAEF20FE192EEE0C00171E74 /* DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAEF20D5192EEE0B00171E74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KN;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = kakipo;
+				TargetAttributes = {
+					CAEF20FD192EEE0C00171E74 = {
+						TestTargetID = CAEF20DC192EEE0B00171E74;
+					};
+				};
+			};
+			buildConfigurationList = CAEF20D8192EEE0B00171E74 /* Build configuration list for PBXProject "Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAEF20D4192EEE0B00171E74;
+			productRefGroup = CAEF20DE192EEE0B00171E74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAEF20DC192EEE0B00171E74 /* Demo */,
+				CAEF20FD192EEE0C00171E74 /* DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAEF20DB192EEE0B00171E74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEF20F9192EEE0B00171E74 /* Images.xcassets in Resources */,
+				CAEF20EB192EEE0B00171E74 /* InfoPlist.strings in Resources */,
+				CAEF20F4192EEE0B00171E74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEF20FC192EEE0C00171E74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEF210A192EEE0C00171E74 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D31ACCBAEE94063BFE1BD75 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D33908BB35C4A0599762C4C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAEF20D9192EEE0B00171E74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEF20F7192EEE0B00171E74 /* KNViewController.m in Sources */,
+				CAEF20ED192EEE0B00171E74 /* main.m in Sources */,
+				CAEF20F1192EEE0B00171E74 /* KNAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEF20FA192EEE0C00171E74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEF210C192EEE0C00171E74 /* DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAEF2104192EEE0C00171E74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAEF20DC192EEE0B00171E74 /* Demo */;
+			targetProxy = CAEF2103192EEE0C00171E74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAEF20E9192EEE0B00171E74 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAEF20EA192EEE0B00171E74 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CAEF20F2192EEE0B00171E74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAEF20F3192EEE0B00171E74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAEF2108192EEE0C00171E74 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAEF2109192EEE0C00171E74 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAEF210D192EEE0C00171E74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CAEF210E192EEE0C00171E74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAEF2110192EEE0C00171E74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2B5707882FE49F6A2BB51F1 /* Pods-Demo.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo/Demo-Prefix.pch";
+				INFOPLIST_FILE = "Demo/Demo-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CAEF2111192EEE0C00171E74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2B5707882FE49F6A2BB51F1 /* Pods-Demo.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo/Demo-Prefix.pch";
+				INFOPLIST_FILE = "Demo/Demo-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CAEF2113192EEE0C00171E74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Demo.app/Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo/Demo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DemoTests/DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CAEF2114192EEE0C00171E74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Demo.app/Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo/Demo-Prefix.pch";
+				INFOPLIST_FILE = "DemoTests/DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAEF20D8192EEE0B00171E74 /* Build configuration list for PBXProject "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEF210D192EEE0C00171E74 /* Debug */,
+				CAEF210E192EEE0C00171E74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAEF210F192EEE0C00171E74 /* Build configuration list for PBXNativeTarget "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEF2110192EEE0C00171E74 /* Debug */,
+				CAEF2111192EEE0C00171E74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAEF2112192EEE0C00171E74 /* Build configuration list for PBXNativeTarget "DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEF2113192EEE0C00171E74 /* Debug */,
+				CAEF2114192EEE0C00171E74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAEF20D5192EEE0B00171E74 /* Project object */;
+}
